@@ -1,0 +1,11 @@
+style
+.navbar-top ul li{
+display: inline;
+align-items: baseline; 
+    }
+    /*  */    
+#menu{
+    list-style: navbar-top;display: inline;
+    text-decoration: aqua;
+
+}
