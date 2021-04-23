@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Queen's Restaurant</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./index.css" />
      <style>
          /* id selector*/
         #logo{
@@ -15,6 +15,8 @@
         .menu{
             background-color: green;
             text-decoration: aqua;
+            list-style: navbar-top;display:inline;
+            
            
         }
     </style>
@@ -22,24 +24,24 @@
 <body>
     
     <!--The header section includes the navigatioon bar, unordered lists -->
-    <header>
+    <header style="height: 500px; width:600px;">
         <nav class="navbar-top">
-            <ul class id="menu">
+            <ul class="menu">
                 <li class="menu item">
-                    <a href="#" id="logo">Codequeen</a>
+                    <a href="index.html" id="logo">Codequeen</a>
                 </li>
                 <li class="menu item">
-                    <a href="#">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li class="menu item">
-                    <a href="contact.html">ContactUs</a>
+                    <a href="contact.html">Contact</a>
                     
                 </li>
             </ul>
         </nav>
     </header>
     <div class="container">
-        <img src="./images/banner.jpg" alt="plate at the table" />
+        <img src="../images/banner.jpg" alt="plate at the table" />
         <div class="feedback-form">
             <h4>Please leave your feedback below</h4>
            <form  id="review-form" method="POST" action="index.html">
@@ -47,14 +49,10 @@
                    <label for="full name">Full name:</label>
                    <input type="text" placeholder="Sheba" id="full name" name="full name" />
                </div>
-               <br>
-               <div input="input-element">
-                <label for="email">Email:</label>
-                <input type="email" placeholder="Email" id="Email" />
-            </div>
+               
             <br>
             <div input="input-element">
-                <label for="review">Message</label>
+                <label for="review">Review</label>
                 <textarea name="review" cols="25" rows="5">
                 </textarea>
             </div>
