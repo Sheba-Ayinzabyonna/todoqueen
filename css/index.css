@@ -3,25 +3,34 @@
 display: inline; 
 /* align-items: baseline; */
  .navbar-top{
-    background-color: rgb (0,128,0);
-    margin-top: 0%;
+ background-color: rgb (0,128,0);
+ margin-top: 0%;
+ height:50px;
     }   
 .menu{
 list-style-type: none;
-display: inline-block; 
+display: block; 
 }
 
 .menu > li {
 display: inline;
+float:right;
+margin:9px;
+padding:12px;
 }
+.menu > li > a {
+text-decoration: none;
+margin-top:0px;
+margin-bottom: 0px;
+color:rgb(235, 46, 21);
 
 img.banner{
         width: 100%;
         height: 520px; 
     } 
 a:hover{
-        color: chocolate;
+        color: #bacf3f;
     }
 a:active{
-        color: beige;
+        color: rgb(210,144,71);
     }
