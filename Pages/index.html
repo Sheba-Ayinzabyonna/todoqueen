@@ -32,7 +32,7 @@
                     <!--a href="index.html" id="logo">Codequeen</a -->
                 </li>
                 <li class="menu item">
-                    <a href="./about.html">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li class="menu item">
                     <a href="contact.html">Contact</a>
@@ -42,9 +42,9 @@
         </nav>
     </header>
     <div class="container">
-        <img class="banner" src="../images/banner.jpg" alt="plate on table" />
+        <img class="banner" src="../images/banner.jpg" alt="Plate on table" />
         <div class="feedback-form">
-            <h4>Please leave your feedback below</h4>
+            <h4 class="form-header">Please leave your feedback below.</h4>
            <form  id="review-form" method="POST" action="index.html">
                <div input="input-element">
                    <label for="full name">Full name:</label>
@@ -54,7 +54,7 @@
             <br>
             <div input="input-element">
                 <label for="review">Review</label>
-                <textarea name="review" cols="25" rows="5">
+                <textarea id="review" name="review">
                 </textarea>
             </div>
             <br>
@@ -62,11 +62,13 @@
            </form>
 
         </div>
-        <div class id="feed">
+        <div class="feed">
             <h3>Restaurant Reviews</h3>
-          <div class="review">
+          <div class="review card">
             <h5 class="reviewer">Herbert</h5>
-            <p class="review-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              <div class="card-content">
+                  <p class="review-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Qui culpa debitis numquam veniam voluptate laborum fugit!
                  Recusandae hic consequatur accusantium.
             </div>
@@ -83,8 +85,9 @@
              <p class="review-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Qui culpa debitis numquam veniam voluptate laborum fugit!
                 Recusandae hic consequatur accusantium.
-            </div>
-        </p>
+             </p>   
+        </div>
+        
         </div>
 
     </div>
